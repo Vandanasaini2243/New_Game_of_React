@@ -1,5 +1,6 @@
 function App(){
-console.log("Hello App");
+const a=10
+console.log(a)
 }
 
 export default App;
