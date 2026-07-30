@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import "./App.css";
+import "./Counter.css";
 
-const App = () => {
+const Counter = () => {
   const [counter, setCounter] = useState(0);
 
   const handleIncrement = () => {
@@ -41,4 +41,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Counter;
