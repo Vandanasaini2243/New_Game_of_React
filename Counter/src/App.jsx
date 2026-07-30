@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import Box from "./components/box";
-// import "./App.css";
+import Counter from "./components/Counter";
+
 
 const App = () => {
 
   return (
     <div className="container">
-    <Box/>
+    <Counter/>
     </div>
   );
 };

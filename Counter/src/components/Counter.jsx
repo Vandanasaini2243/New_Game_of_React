@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const Box = () => {
+const Counter = () => {
     const [counter,setCounter] = useState(0);
   return (
     <div className='box'>
@@ -17,4 +17,4 @@ const Box = () => {
   )
 }
 
-export default Box
+export default Counter;
